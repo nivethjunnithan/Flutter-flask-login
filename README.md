@@ -22,6 +22,6 @@ Flutter app integrated with Flask server with login and registration functionali
 
 ### That's all, the app now should work as in the GIF 
 
-####  Note: if it didn't work, check your firewall and make sure the port is allowed to respond for external requests, to check if the connection is established, open the browser in the phone and go to `http://YOU_IP:5000/` , if it shows Hello World text, then the firewall is setup and the server is working in the network 
+#### Note: if it didn't work, check your firewall and make sure the port is allowed to respond for external requests, to check if the connection is established, open the browser in the phone and go to `http://YOU_IP:5000/` , if it shows Hello World text, then the firewall is setup and the server is working in the network 
 #### For Linux the code to allow the port is `sudo iptables -A INPUT -p tcp --dport 5000 -j ACCEPT` , where 5000 is the port number
 
